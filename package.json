@@ -1,0 +1,17 @@
+{
+  "name": "pagepro-react-components",
+  "main": "index.js",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/react": "^16.9.11",
+    "fs-extra": "^8.1.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "typescript": "^3.6.4",
+    "yarn-or-npm": "^3.0.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "yon run build && node ./scripts/pullDistDirToRoot.js"
+  }
+}
